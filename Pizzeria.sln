@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria.Service", "Pizzeri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria.Service.Tests", "Pizzeria.Service.Tests\Pizzeria.Service.Tests.csproj", "{5E308B81-A164-4039-89E8-C474E17994A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria.Client", "Pizzeria.Client\Pizzeria.Client.csproj", "{A8261D04-761B-443E-AFE4-3A22E99939BB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria.BL", "Pizzeria.BL\Pizzeria.BL.csproj", "{D34D6C2A-AFB9-4BDB-83DD-B93A17E53855}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria.DAL", "Pizzeria.DAL\Pizzeria.DAL.csproj", "{806EDCEE-5A7F-4E89-9A79-3CB03AA29BF5}"
@@ -33,10 +31,6 @@ Global
 		{5E308B81-A164-4039-89E8-C474E17994A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E308B81-A164-4039-89E8-C474E17994A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E308B81-A164-4039-89E8-C474E17994A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8261D04-761B-443E-AFE4-3A22E99939BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8261D04-761B-443E-AFE4-3A22E99939BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8261D04-761B-443E-AFE4-3A22E99939BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8261D04-761B-443E-AFE4-3A22E99939BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D34D6C2A-AFB9-4BDB-83DD-B93A17E53855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D34D6C2A-AFB9-4BDB-83DD-B93A17E53855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D34D6C2A-AFB9-4BDB-83DD-B93A17E53855}.Release|Any CPU.ActiveCfg = Release|Any CPU
