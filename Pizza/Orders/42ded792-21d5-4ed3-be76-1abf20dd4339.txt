@@ -1,0 +1,1 @@
+{"Food":{"Image":"../../../assets/img/Cheese_Pizza.gif","Name":"Cheese Pizza","Price":75.0},"Quantity":1,"Size":"Small","Ingredients":[{"IsChecked":true,"Name":"Tomato","Price":45.0}],"Toppings":[{"IsChecked":true,"Name":"Mushrooms","Price":25.0}],"GrandTotal":145.0}

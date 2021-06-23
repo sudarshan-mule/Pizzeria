@@ -1,0 +1,3 @@
+[{ name: 'Flour', isChecked: false, price: 40 }, { name: 'Mozzarella', isChecked: false, price: 30 }, { name: 'Tomato', isChecked: false, price: 45 },
+  { name: 'Basil', isChecked: false, price: 35 }, { name: 'Oil', isChecked: false, price: 60 }, { name: 'Yeast', isChecked: false, price: 25 },
+  { name: 'Dough', isChecked: false, price: 50 }, { name: 'Cheese', isChecked: false, price: 55 }, { name: 'Sauce', isChecked: false, price: 20 }]

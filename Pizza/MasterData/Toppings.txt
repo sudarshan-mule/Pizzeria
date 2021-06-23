@@ -1,0 +1,3 @@
+[{ name: 'Pepperoni', isChecked: false, price: 10 }, { name: 'Sausage', isChecked: false, price: 15 }, { name: 'Mushrooms', isChecked: false, price: 25 },
+  { name: 'Spinach', isChecked: false, price: 20 }, { name: 'Pineapple', isChecked: false, price: 22 }, { name: 'Bacon', isChecked: false, price: 39 },
+  { name: 'Onions', isChecked: false, price: 35 }]

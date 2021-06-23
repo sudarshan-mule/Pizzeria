@@ -1,0 +1,1 @@
+{"Food":{"Image":"../../../assets/img/Regular_Pizza.jpg","Name":"Regular Pizza","Price":50.0},"Quantity":1,"Size":"Small","Ingredients":[{"IsChecked":true,"Name":"Tomato","Price":45.0}],"Toppings":[{"IsChecked":true,"Name":"Bacon","Price":39.0}],"GrandTotal":134.0}

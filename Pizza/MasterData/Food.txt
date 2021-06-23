@@ -1,0 +1,3 @@
+[{ name: 'Regular Pizza', image: '../../../assets/img/Regular_Pizza.jpg', price: 50 }, { name: 'Cheese Pizza', image: '../../../assets/img/Cheese_Pizza.gif', price: 75 },
+    { name: 'Chicken Pizza', image: '../../../assets/img/Chicken_Pizza.jpg', price: 80 }, { name: 'Chicken Crispy', image: '../../../assets/img/Chicken_Crispy.jpg', price: 95 },
+    { name: 'Veg Burger', image: '../../../assets/img/Veg_Burger.jpg', price: 60 }]
