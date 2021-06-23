@@ -4,3 +4,5 @@
 Please add this folder in C:\ Drive to test the application.
 
 2. Attached Application Screenshot in Screenshot Folder. 
+
+3. I can improve the application code in both client and service. Due to time constraints did this in simple way.
