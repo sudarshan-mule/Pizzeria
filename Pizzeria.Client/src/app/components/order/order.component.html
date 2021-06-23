@@ -1,0 +1,53 @@
+
+  <form id="regForm">
+    <h1 *ngIf="orderId <= 0">Order:</h1>
+    <h2 style="text-align: left;" *ngIf="orderId <= 0">Grand Total: ₹ {{ order.grandTotal }}</h2>
+    <h1 *ngIf="orderId > 0">Order placed successfully. Your order id is: {{orderId}}</h1>
+    <h1 *ngIf="errorMessage">{{errorMessage}}</h1>
+    <!-- One "tab" for each step in the form: -->
+    <div class="tab number">
+      <h3>Quantity:</h3>
+      <span class="minus" (click)="incDec(-1)">-</span>
+      <input type="text" [(ngModel)]="order.quantity" value="{{order.quantity}}" name="quantity" />
+      <span class="plus" (click)="incDec(+1)">+</span>
+    </div>
+    <div class="tab">
+      <h3>Size:</h3>
+      <select name="size" id="size" [(ngModel)]="order.size" (change)="changeSize()">
+        <option *ngFor="let psize of pizzaSize" [ngValue]="psize">{{psize}}</option>
+      </select>
+    </div>
+    <div class="tab">
+      <h3>Ingredients:</h3>
+      <ul>
+        <li *ngFor="let pizzaIngredients of splittedPizzaIngredients">
+          <label *ngFor="let ingredients of pizzaIngredients" for="{{ingredients.name}}">
+            <input type="checkbox" id="{{ingredients.name}}" name="{{ingredients.name}}" [(ngModel)]="ingredients.isChecked" [ngValue]="ingredients.name" (change)="changeIngredients(ingredients)"> {{ingredients.name}}
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="tab">
+      <h3>Topping:</h3>
+      <ul>
+        <li *ngFor="let pizzaToppings of splittedPizzaToppings">
+          <label *ngFor="let toppings of pizzaToppings" for="{{toppings.name}}">
+            <input type="checkbox" id="{{toppings.name}}" name="{{toppings.name}}" [(ngModel)]="toppings.isChecked" [ngValue]="toppings.name" (change)="changeToppings(toppings)"> {{toppings.name}}
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div style="overflow:auto;">
+      <div style="float:right;">
+        <button type="button" id="prevBtn" (click)="nextPrev(-1)">Previous</button>
+        <button [disabled]="isDisabled" type="button" id="nextBtn" (click)="nextPrev(1)">Next</button>
+      </div>
+    </div>
+    <!-- Circles which indicates the steps of the form: -->
+    <div style="text-align:center;margin-top:40px;" [hidden]="orderId > 0">
+      <span class="step"></span>
+      <span class="step"></span>
+      <span class="step"></span>
+      <span class="step"></span>
+    </div>
+  </form>

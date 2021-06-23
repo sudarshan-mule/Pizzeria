@@ -1,0 +1,12 @@
+<br />
+<br />
+<div class="slideshow-container" *ngIf="foods && foods.length > 0">
+  <div id="food_{{food.name}}" class="fade" *ngFor="let food of foods; let currentCount = index" title="Select {{food.name}}">
+    <div id="counter_{{food.name}}" class="numbertext">{{currentCount+1}} / {{foods.length}}</div>
+    <img id="img_{{food.name}}" src="{{food.image}}" style="width:100%" (click)="goToOrder(food)" />
+    <br />
+    <div id="detail_{{food.name}}" class="price">{{food.name}} (Base Price: ₹ {{food.price}})</div>
+  </div>
+</div>
+<br />
+<br />
