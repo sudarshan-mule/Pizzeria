@@ -5,3 +5,5 @@ Please copy this Pizza folder in C:\ Drive to create order and to get master dat
 
 2. Attached Application Screenshot in Screens Folder (https://github.com/sudarshan-mule/Pizzeria/tree/Dev/Screens)
 3. Please look into screens.
+
+4. I can improve the application code in both client and service. Due to time constraints did this in simple way.
