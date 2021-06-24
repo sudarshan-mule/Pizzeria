@@ -1,8 +1,6 @@
 # Pizzeria
 
-1. I have uploaded Pizza Folder (https://github.com/sudarshan-mule/Pizzeria/tree/Dev/Pizza) for reference. Where all master data, errors and orders are in placed,
-Please copy this Pizza folder in C:\ Drive to create order and to get master data.
-
+1. As I have used file system to upload and get data. I have uploaded Pizza Folder (https://github.com/sudarshan-mule/Pizzeria/tree/Dev/Pizza) for reference. Please add this folder in C:\ Drive to test the application
 2. Attached Application Screenshot in Screens Folder (https://github.com/sudarshan-mule/Pizzeria/tree/Dev/Screens)
 3. Please look into screens.
 
